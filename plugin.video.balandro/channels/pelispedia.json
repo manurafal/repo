@@ -1,0 +1,15 @@
+{
+  "id": "pelispedia",
+  "name": "PelisPedia",
+  "thumbnail": "pelispedia.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie", "tvshow"],
+
+  "categories": ["movie", "tvshow", "vos"],
+  "language": ["cast", "lat"],
+
+  "notes": "Películas y Series: novedades, por género, por año."
+}

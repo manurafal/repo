@@ -1,0 +1,15 @@
+{
+  "id": "repelis",
+  "name": "Repelis",
+  "thumbnail": "repelis.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas por idiomas, por género, estrenos, ..."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "solocastellano",
+  "name": "SoloCastellano",
+  "thumbnail": "solocastellano.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["movie"],
+
+  "categories": ["movie"],
+  "language": ["cast"],
+
+  "notes": "Películas: estrenos, por género, por año"
+}

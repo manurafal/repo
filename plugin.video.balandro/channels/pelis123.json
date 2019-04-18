@@ -1,0 +1,15 @@
+{
+  "id": "pelis123",
+  "name": "Pelis123",
+  "thumbnail": "pelis123.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["cast", "lat", "vose"],
+
+  "notes": "Películas y series, por géneros, idiomas, países, años."
+}

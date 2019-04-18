@@ -1,0 +1,15 @@
+{
+  "id": "peliculashd",
+  "name": "PeliculasHD",
+  "thumbnail": "peliculashd.png",
+
+  "active": true,
+
+  "searchable": true,
+  "search_types": ["all", "movie", "tvshow"],
+
+  "categories": ["movie", "tvshow"],
+  "language": ["lat", "cast", "vose"],
+
+  "notes": "Películas y algunas series con lista de últimos episodios."
+}
