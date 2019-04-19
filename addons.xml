@@ -146,7 +146,7 @@
     - The Ultimate Version by Manu.
     </news>
   </extension>
-  <extension point="xbmc.addon.repository" name="TvBox ManVic">
+  <extension point="xbmc.addon.repository" name="TvBox ManVic Repo">
     <info>https://raw.githubusercontent.com/manurafal/Repo/master/addon.xml</info>
     <checksum>https://raw.githubusercontent.com/manurafal/Repo/master/addon.xml.md5</checksum>
     <datadir zip="true">https://raw.githubusercontent.com/manurafal/Repo/master/</datadir>
@@ -154,7 +154,7 @@
 </addon>
 
 <addon id="repository.TvBox.ManVic" name="TvBox ManVic" version="1.0" provider-name="Manu">
-    <extension point="xbmc.addon.repository" name="TvBox ManVic">
+    <extension point="xbmc.addon.repository" name="TvBox ManVic Repo">
         <info>https://raw.githubusercontent.com/manurafal/Repo/master/addon.xml</info>
         <checksum>https://raw.githubusercontent.com/manurafal/Repo/master/addon.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/manurafal/Repo/master/</datadir>
