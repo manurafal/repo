@@ -167,4 +167,18 @@
         <license>By Manu.</license>
     </extension>
 </addon>
+
+<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.1" provider-name="Manu">
+    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+    <requires>
+        <import addon="kodi.resource" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.metadata">
+        <summary>Resource Images</summary>
+        <description>Resource Images Oficial TvBox ManVic by Manu.</description>
+        <platform>all</platform>
+        <language>es</language>
+        <license>By Manu.</license>
+    </extension>
+</addon>
 </addons>
