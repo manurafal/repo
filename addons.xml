@@ -39,27 +39,6 @@
 
 </addon>
 
-<addon id="plugin.video.cine" name="Cine" version="1.0.74" provider-name="Topo">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Cine</summary>
-    <description>Addon de Cine</description>
-    <disclaimer></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.57" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -98,7 +77,7 @@
 
 <addon id="plugin.video.TvBox.ManVic.Wizard"
        name="TvBox ManVic"
-       version="18.2"
+       version="18.3"
        provider-name="Manu">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -140,6 +119,9 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
+    18.3.: 01th May 2019
+    - The Ultimate Version by Manu.
+
     18.2.: 16th April 2019
     - The Ultimate Version by Manu now on KODI 18.2 Leia.
 
