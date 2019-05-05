@@ -77,7 +77,7 @@
 
 <addon id="plugin.video.TvBox.ManVic.Wizard"
        name="TvBox ManVic"
-       version="18.3"
+       version="18.4"
        provider-name="Manu">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -119,8 +119,8 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
-    18.3.: 01th May 2019
-    - The Ultimate Version by Manu.
+    18.4.: 05th May 2019
+    - The Ultimate Version by Manu add Register Option.
 
     18.2.: 16th April 2019
     - The Ultimate Version by Manu now on KODI 18.2 Leia.
