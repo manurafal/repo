@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.TvBox.ManVic.Wizard" 
        name="TvBox ManVic" 
-       version="18.4" 
+       version="18.5" 
        provider-name="Manu"> 
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -43,6 +43,9 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
+    18.5.: 25th May 2019
+    - The Ultimate Version by Manu Fix Backup Option.
+
     18.4.: 05th May 2019
     - The Ultimate Version by Manu add Register Option.
 
