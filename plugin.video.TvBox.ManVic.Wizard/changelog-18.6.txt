@@ -1,2 +1,0 @@
-v18.6
-Initial Release
