@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="2.8.9" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.10" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -22,13 +22,14 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ jetload                      ¤ pelis24                         ¤ animeflv
-      ¤ Newpct1                  ¤ Mejortorrent1            ¤ pack +18
-      ¤ cinetux                     ¤ rapidvideo
+      ¤ jetload                         ¤ clasicofilm                      ¤ fembed
+      ¤ thevid                          ¤ pepecine                         ¤ pack +18
+      ¤ newpct1                      ¤ seriespapaya                 ¤ dilo.nu
+      ¤ shahid4u                     ¤ goovie                             ¤ cine24h
+      ¤ homecine                    ¤ puyasubs                        ¤ dilo.nu
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Shahi4u.net                  ¤ xvideos                   ¤ Salynpm
-      ¤ anilegends                    ¤ dangotoons
+      ¤ Zoowoman                  ¤ Rcdn.me                   ¤ Videofiles
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
@@ -45,7 +46,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="1.2.10" provider-name="Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="1.2.12" provider-name="Balandro">
 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -62,11 +63,11 @@
 
     <news>Últimas modificaciones de Balandro:
 
-    Correcciones en canales: CineCalidad, SeriesPapaya.
-    Añadido canal PelisIpad.
-    Correcciones en servidores: PowVideo, StreamPlay.
-    Añadidos servidores GoUnlimited, VeryStream, VideoFiles.
-    Añadida opción para proxies en el canal SeriesPapaya.
+    Canales modificados: Pepecine, NewPct1, PeliculasHd, InkaPelis.
+    Desactivado canal Pelis123.
+    Modificación general en todos los servidores.
+    Quitada la verificación previa de enlaces.
+    Acceso por canales configurable.
     </news>
 
     <assets>
@@ -125,7 +126,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.58" provider-name="TierraMedia">
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.60" provider-name="TierraMedia">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
     <import addon="script.module.simple.downloader" version="1.9.5"/>
@@ -143,9 +144,9 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>TV</summary>
-    <news>[COLOR lime][B] versión 0.0.58 [/B][/COLOR]
-        - [Interno] Soporte para el Servidor H265.
-        - [Menu] Añadido Agrega Contenido en Herramientas.
+    <news>[COLOR lime][B] versión 0.0.60 [/B][/COLOR]
+        - [Interno] Soporte para el servidor H265 actualizado.
+        - [Interno] Correcciones internas.
     </news>
     <description>Visualiza el contenido de la nube, series, películas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
@@ -165,7 +166,7 @@
 
 <addon id="plugin.video.TvBox.ManVic.Wizard"
        name="TvBox ManVic"
-       version="18.7"
+       version="18.8"
        provider-name="Manu">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -201,6 +202,9 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
+    18.8.: 26th May 2019
+    - The Ultimate Version by Manu Fix Register Option.
+
     18.5. - 18.7.: 26th May 2019
     - The Ultimate Version by Manu Fix Backup Option.
 
@@ -237,7 +241,7 @@
     </extension>
 </addon>
 
-<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.7" provider-name="Manu">
+<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.8" provider-name="Manu">
     <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
     <requires>
         <import addon="kodi.resource" version="1.0.0"/>

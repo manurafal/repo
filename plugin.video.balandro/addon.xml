@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.balandro" name="Balandro" version="1.2.10" provider-name="Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="1.2.12" provider-name="Balandro">
 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -16,11 +16,11 @@
 
     <news>Últimas modificaciones de Balandro:
 
-    Correcciones en canales: CineCalidad, SeriesPapaya.
-    Añadido canal PelisIpad.
-    Correcciones en servidores: PowVideo, StreamPlay.
-    Añadidos servidores GoUnlimited, VeryStream, VideoFiles.
-    Añadida opción para proxies en el canal SeriesPapaya.
+    Canales modificados: Pepecine, NewPct1, PeliculasHd, InkaPelis.
+    Desactivado canal Pelis123.
+    Modificación general en todos los servidores.
+    Quitada la verificación previa de enlaces.
+    Acceso por canales configurable.
     </news>
 
     <assets>
