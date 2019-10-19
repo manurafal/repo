@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.cristalazul"
        name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.4"
-       provider-name="PICAPAU, LOURDES, SUPERTOPO">
+       version="0.0.5"
+       provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -35,6 +35,7 @@
     <platform>all</platform>
 	  <assets>
 		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
 	  </assets>
   </extension>
 </addon>

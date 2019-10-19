@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.balandro" name="Balandro" version="1.3.4" provider-name="Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="1.3.6" provider-name="Balandro">
 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -16,9 +16,9 @@
 
     <news>Últimas modificaciones de Balandro:
 
-    Servidores modificados: StreamPlay, OnlyStream, TheVid.
-    Canales modificados: CineTux, SerieZ, CanalPelis, PelisIpad, PedroPolis, 
-    Area-Documental, MiraDocumentales.
+    Servidores modificados: PowVideo, JetLoad.
+    Canales modificados: PedroPolis, HdFull, NewPct1, WikiSeries, SerieZ, GranTorrent.
+    Canales desactivados: CanalPelis.
     </news>
 
     <assets>
