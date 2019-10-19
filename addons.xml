@@ -1,5 +1,233 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.alfa" name="Alfa" version="2.8.30" provider-name="Alfa Addon">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+    <import addon="script.module.html5lib" version="0.999.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Navega con Kodi por páginas web.</summary>
+    <assets>
+      <icon>resources/logo2.png</icon>
+      <fanart>resources/fanart1.jpg</fanart>
+      <screenshot>resources/media/themes/ss/1.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/2.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/3.jpg</screenshot>
+      <screenshot>resources/media/themes/ss/4.jpg</screenshot>
+    </assets>
+      <news>[B]Estos son los cambios para esta versión:[/B]
+
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ subtorrents                  ¤ CineCalidad             ¤ PoseidonHD
+      ¤ Maspeliculas                ¤ Hitokin                      ¤ Pelis24
+      ¤ Pelisvips                        ¤ Cuevana2                ¤ Seriespapaya
+      ¤ Peliculonhd                  ¤ Pelisgratis               ¤ Pelisplus
+      ¤ +18
+    </news>
+    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+    <summary lang="en">Browse web pages using Kodi</summary>
+    <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
+    <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>foro</forum>
+    <website>web</website>
+    <email>my@email.com</email>
+    <source>https://github.com/alfa-addon/addon</source>
+  </extension>
+  <extension point="xbmc.service" library="videolibrary_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="plugin.video.balandro" name="Balandro" version="1.3.6" provider-name="Balandro">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Balandro addon</summary>
+    <description lang="es">Balandro es un navegador para webs con vídeos de películas y series, derivado de pelisalacarta y alfa.</description>
+    <disclaimer lang="es">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+
+    <news>Últimas modificaciones de Balandro:
+
+    Servidores modificados: PowVideo, JetLoad.
+    Canales modificados: PedroPolis, HdFull, NewPct1, WikiSeries, SerieZ, GranTorrent.
+    Canales desactivados: CanalPelis.
+    </news>
+
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>https://www.mimediacenter.info/foro/viewforum.php?f=44</forum>
+    <website>https://balandro.tk</website>
+    <email>my@email.com</email>
+    <source>...</source>
+  </extension>
+
+  <extension point="xbmc.service" library="services.py" start="login|startup"/>
+
+</addon>
+
+<addon id="plugin.video.cristalazul"
+       name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
+       version="0.0.5"
+       provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>creado por picapau, lourdes, supertopo y luisma</summary>
+    <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
+	</description>
+    <platform>all</platform>
+	  <assets>
+		<icon>icon.gif</icon>
+		<fanart>fanart.jpg</fanart>
+	  </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.67" provider-name="TierraMedia">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+	<import addon="script.module.requests"/>
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="script.extendedinfo" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="orthanc.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.repository" name="Palantir Repo">
+        <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>TV</summary>
+    <news>[COLOR lime][B] versión 0.0.67 [/B][/COLOR]
+        - [Interno] Actualizada sección Cine 3D.
+        - [Interno] Actualizada sección Cine 4K.
+        - [Interno] Añadido todos los años en Pelis años y Pelis reciente años.
+    </news>
+    <description>Visualiza el contenido de la nube, series, películas.</description>
+    <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.gif</fanart>
+    </assets>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.video.TvBox.ManVic.Wizard"
+       name="TvBox ManVic"
+       version="18.9"
+       provider-name="Manu">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.simple.downloader" version="1.9.5"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.resolveurl" optional="true"/>
+    <import addon="xbmc.addon" version="17.6.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="start.py" start="startup" />
+  <extension point="xbmc.addon.repository" name="TvBox ManVic Repo">
+    <info>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/manurafal/Repo/master/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Wizard</summary>
+    <description>Wizard TvBox ManVic by Manu</description>
+    <platform>all</platform>
+    <language>es</language>
+    <license>By Manu.</license>
+    <forum></forum>
+    <website>http://www.TvBoxManVic.es</website>
+    <source></source>
+    <email>TvBoxManVic@gmail.com</email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+	    <screenshot>resources/screenshot-01.jpg</screenshot>
+	    <screenshot>resources/screenshot-02.jpg</screenshot>
+    </assets>
+    <news>
+    18.9.: 19th Nov 2019
+    - The Ultimate Version by Manu Fix Register Option.
+
+    18.8.: 26th May 2019
+    - The Ultimate Version by Manu Fix Register Option.
+
+    18.5. - 18.7.: 26th May 2019
+    - The Ultimate Version by Manu Fix Backup Option.
+
+    18.4.: 05th May 2019
+    - The Ultimate Version by Manu add Register Option.
+
+    18.2.: 16th April 2019
+    - The Ultimate Version by Manu now on KODI 18.2 Leia.
+
+    3.0.: 23th November 2018
+    - The Ultimate Version by Manu.
+
+    2.0.: 19th August 2018
+    - The Ultimate Version by Manu.
+
+    1.0.: 16th April 2018
+    - The Ultimate Version by Manu.
+    </news>
+  </extension>
+</addon>
+
 <addon id="repository.TvBox.ManVic" name="TvBox ManVic Repo" version="1.0" provider-name="Manu">
     <extension point="xbmc.addon.repository" name="TvBox ManVic Repo">
         <info>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml</info>
@@ -15,7 +243,7 @@
     </extension>
 </addon>
 
-<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.7" provider-name="Manu">
+<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.8" provider-name="Manu">
     <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
     <requires>
         <import addon="kodi.resource" version="1.0.0"/>
