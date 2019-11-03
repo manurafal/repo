@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.TvBox.ManVic.Wizard" 
        name="TvBox ManVic" 
-       version="18.10" 
+       version="18.11" 
        provider-name="Manu"> 
   <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.simple.downloader" version="1.9.5"/>
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.resolveurl" optional="true"/>
-    <import addon="xbmc.addon" version="17.6.0"/>
+    <import addon="xbmc.python" version="2.25.0"></import>
+    <import addon="script.module.simple.downloader" version="1.9.5"></import>
+    <import addon="script.module.requests"></import>
+    <import addon="script.module.httplib2"></import>
+    <import addon="script.module.resolveurl" optional="true"></import>
+    <import addon="xbmc.addon" version="17.6.0"></import>
+    <!-- Linea para solo Kodi 17.6 -->
+    <!-- <import addon="xbmc.gui" version="5.12.0"></import> -->
+    <!-- Linea para solo Kodi 18.1 -->    
+    <!-- <import addon="xbmc.gui" version="5.14.0"></import> -->
+    <!-- Linea para Trazar el codigo fuente de Kodi -->
+    <!-- <import addon="script.module.web-pdb"></import> -->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -36,17 +42,8 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
-    18.9.: 19th Nov 2019
-    - The Ultimate Version by Manu Fix Register Option.
-
-    18.8.: 26th May 2019
-    - The Ultimate Version by Manu Fix Register Option.
-
-    18.5. - 18.7.: 26th May 2019
+    18.3. - 18.11.: 03th Nov 2019
     - The Ultimate Version by Manu Fix Backup Option.
-
-    18.4.: 05th May 2019
-    - The Ultimate Version by Manu add Register Option.
 
     18.2.: 16th April 2019
     - The Ultimate Version by Manu now on KODI 18.2 Leia.
@@ -61,5 +58,5 @@
     - The Ultimate Version by Manu.
     </news>
   </extension>
-  <extension point="xbmc.service" library="start.py" start="login|startup"/>
+  <extension point="xbmc.service" library="start.py" start="login|startup"></extension>
 </addon>

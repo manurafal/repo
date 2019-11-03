@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.8" provider-name="Manu">
-    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds" />
+<addon id="resource.images.skinbackgrounds.TvBox.ManVic" name="TvBox ManVic Resource Images" version="18.9" provider-name="Manu">
+    <extension point="kodi.resource.images" compile="false" type="skinbackgrounds"></extension>
     <requires>
-        <import addon="kodi.resource" version="1.0.0"/>
+        <import addon="kodi.resource" version="1.0.0"></import>
     </requires>
     <extension point="xbmc.addon.metadata">
         <summary>Resource Images</summary>
@@ -12,8 +12,8 @@
         <license>By Manu.</license>
     </extension>
     <extension point="xbmc.addon.repository" name="TvBox ManVic Repo">
-    <info>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/manurafal/Repo/master/</datadir>
+        <info>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/manurafal/Repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/manurafal/Repo/master/</datadir>
     </extension>
 </addon>
