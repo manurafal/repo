@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.alfa" name="Alfa" version="3.0.8" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.2.4" provider-name="Alfa Addon">
   <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
     <import addon="script.module.html5lib" version="0.999.0"/>
+    <import addon="script.alfa-update-helper" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -13,8 +13,8 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">Navega con Kodi por páginas web.</summary>
     <assets>
-      <icon>resources/logo2.png</icon>
-      <fanart>resources/fanart1.jpg</fanart>
+      <icon>resources/icono_3.png</icon>
+      <fanart>resources/halloween2020.png</fanart>
       <screenshot>resources/media/themes/ss/1.jpg</screenshot>
       <screenshot>resources/media/themes/ss/2.jpg</screenshot>
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
@@ -23,17 +23,15 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ DivxTotal                           ¤ Grantorrent                   ¤ Anilegends
-      ¤ Dangotoons                     ¤ Danimados                    ¤ BlogHorror
-      ¤ CineCalidad                      ¤ HomeCine                      ¤ PoseidonHD
-      ¤ SeoDiv                               ¤ SeriesMetro                   ¤ PoseidonHD
-      ¤ Simpsons-latino               ¤ +18
+      ¤ Repelis                                     ¤ Newpct1                             ¤ Divxtotal
+      ¤ Dontorrent                              ¤ Subtorrents                        ¤ Zooqel
+      ¤ Animeflv.ru                              ¤ Hdfull                                  ¤ Goovie
+      ¤ Playview                                   ¤ Poseidonhd                       ¤ Seriesflix
+      ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Descargas: gestión integral de canales Torrent
-      ¤ Aniyet                               ¤ CineClasicoOnLine         ¤ CineIS
-      ¤ SerieMega                       ¤ TuCineClasico
-      ¤ +18: compatibilidad total Kodi 19
+      ¤ Assistant                                  ¤ Pelisflix
+      ¤ Dropbox (server)                    ¤ Icedrive (server)                 ¤ Jottacloud (server)
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
@@ -51,7 +49,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="1.4.11" provider-name="Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="1.4.20" provider-name="Balandro">
 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -68,8 +66,10 @@
 
     <news>Últimas modificaciones de Balandro:
 
-    Canales modificados: Seriemega, Cinemaclasic, Areadocumental, Grantorrent, Inkapelis, Pelisvips.
-    Servidores modificados: Archiveorg, Zembed, Easyload, Gounlimited, Vidlox.
+    Nuevos canales: Estrenoscinesaa, Peliculasflix, Seriesflix, Repelis, Movidy.
+    Canales modificados: Torrentdivx, Newpct1, Cinemaclasic, Tucineclasico, Dospelis,
+    Cliver, Hdfull.
+    Servidores modificados: Mega, Doodstream, Jwp, Aparat, Streamtape, Mystream, Vidtodo.
     </news>
 
     <assets>
@@ -89,8 +89,8 @@
 </addon>
 
 <addon id="plugin.video.cristalazul"
-       name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.7"
+       name="[B][/B][COLOR aqua]CRISTAL AZUL[/COLOR]"
+       version="0.0.9"
        provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -114,12 +114,29 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
+   <extension point="xbmc.service" library="autoexec.py" start="autoexec" />
 
    <extension point="xbmc.addon.repository" name="Mi repositorio">
-        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+
+        <dir>
+            <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+		</dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+		</dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
     </extension>
+
 
   <extension point="xbmc.addon.metadata">
     <summary>creado por picapau, lourdes, supertopo y luisma</summary>
@@ -174,7 +191,7 @@
 
 <addon id="plugin.video.TvBox.ManVic.Wizard"
        name="TvBox ManVic"
-       version="18.11"
+       version="18.12"
        provider-name="Manu">
   <requires>
     <import addon="xbmc.python" version="2.25.0"></import>
@@ -215,7 +232,7 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
-    18.3. - 18.11.: 03th Nov 2019
+    18.3. - 18.12.: 05th Oct 2020
     - The Ultimate Version by Manu Fix Backup Option.
 
     18.2.: 16th April 2019
