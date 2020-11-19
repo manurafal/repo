@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.TvBox.ManVic.Wizard" 
        name="TvBox ManVic" 
-       version="18.12" 
+       version="18.15" 
        provider-name="Manu"> 
   <requires>
     <import addon="xbmc.python" version="2.25.0"></import>
@@ -42,6 +42,10 @@
 	    <screenshot>resources/screenshot-02.jpg</screenshot>
     </assets>
     <news>
+    
+    18.13. - 18.15.: 19th Dec 2020
+    - The Ultimate Version by Manu Fix Backup Option.
+
     18.3. - 18.12.: 05th Oct 2020
     - The Ultimate Version by Manu Fix Backup Option.
 
